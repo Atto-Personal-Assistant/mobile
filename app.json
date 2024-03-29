@@ -5,7 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "08d82a7a-760f-418e-87cc-102ed0cfe42f"
+      }
+    }
   },
   "name": "mobile"
 }

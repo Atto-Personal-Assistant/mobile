@@ -1,19 +1,6 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { Routes } from "./src/routes";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Atto AI, seu assistente pessoal!</Text>
-    </View>
-  );
-}
+const App = () => <Routes />;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

@@ -1,28 +1,28 @@
-import { Home, Train, Use } from "../pages";
+import {Home, Train, Use} from '../../pages';
 
 const routes = [
   {
-    name: "Home",
+    name: 'Home',
     component: Home,
     options: {
-      title: "Início",
+      title: 'Início',
       // headerShown: false,
     },
   },
   {
-    name: "Train",
+    name: 'Train',
     component: Train,
     options: {
-      title: "Treino",
+      title: 'Treino',
     },
   },
   {
-    name: "Use",
+    name: 'Use',
     component: Use,
     options: {
-      title: "Usar",
+      title: 'Usar',
     },
   },
 ];
 
-export { routes };
+export {routes};
